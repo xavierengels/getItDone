@@ -7,13 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C9966A3A1A24FD2800527A73 /* TodoDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9966A391A24FD2800527A73 /* TodoDetailViewController.m */; };
 		C998E3181A1931FB005E7DEA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C998E3171A1931FB005E7DEA /* main.m */; };
 		C998E31B1A1931FB005E7DEA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C998E31A1A1931FB005E7DEA /* AppDelegate.m */; };
-		C998E31E1A1931FB005E7DEA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C998E31D1A1931FB005E7DEA /* ViewController.m */; };
+		C998E31E1A1931FB005E7DEA /* TodoListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C998E31D1A1931FB005E7DEA /* TodoListViewController.m */; };
 		C998E3211A1931FB005E7DEA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C998E31F1A1931FB005E7DEA /* Main.storyboard */; };
 		C998E3231A1931FB005E7DEA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C998E3221A1931FB005E7DEA /* Images.xcassets */; };
 		C998E3261A1931FB005E7DEA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C998E3241A1931FB005E7DEA /* LaunchScreen.xib */; };
 		C998E3321A1931FB005E7DEA /* TodoListTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C998E3311A1931FB005E7DEA /* TodoListTests.m */; };
+		C9D09B051A26157100C88831 /* UITextField+Geometry.m in Sources */ = {isa = PBXBuildFile; fileRef = C9D09B041A26157100C88831 /* UITextField+Geometry.m */; };
+		C9FD85071A403CDD00AC383F /* Todo.m in Sources */ = {isa = PBXBuildFile; fileRef = C9FD85061A403CDD00AC383F /* Todo.m */; };
+		EF8F57151A8BCE7C00FE1B45 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF8F57141A8BCE7C00FE1B45 /* CoreData.framework */; };
+		EF8F57181A8BCEC500FE1B45 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EF8F57161A8BCEC500FE1B45 /* Model.xcdatamodeld */; };
+		EF8F57501A8BF72700FE1B45 /* Project.m in Sources */ = {isa = PBXBuildFile; fileRef = EF8F574F1A8BF72700FE1B45 /* Project.m */; };
+		EF8F57591A8C01EE00FE1B45 /* ProjectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF8F57581A8C01EE00FE1B45 /* ProjectViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,19 +34,31 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C9966A381A24FD2800527A73 /* TodoDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TodoDetailViewController.h; sourceTree = "<group>"; };
+		C9966A391A24FD2800527A73 /* TodoDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TodoDetailViewController.m; sourceTree = "<group>"; };
 		C998E3121A1931FB005E7DEA /* TodoList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TodoList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C998E3161A1931FB005E7DEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C998E3171A1931FB005E7DEA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C998E3191A1931FB005E7DEA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C998E31A1A1931FB005E7DEA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		C998E31C1A1931FB005E7DEA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		C998E31D1A1931FB005E7DEA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C998E31C1A1931FB005E7DEA /* TodoListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TodoListViewController.h; sourceTree = "<group>"; };
+		C998E31D1A1931FB005E7DEA /* TodoListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TodoListViewController.m; sourceTree = "<group>"; };
 		C998E3201A1931FB005E7DEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		C998E3221A1931FB005E7DEA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C998E3221A1931FB005E7DEA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = TodoList/Images.xcassets; sourceTree = "<group>"; };
 		C998E3251A1931FB005E7DEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		C998E32B1A1931FB005E7DEA /* TodoListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TodoListTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C998E3301A1931FB005E7DEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C998E3311A1931FB005E7DEA /* TodoListTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TodoListTests.m; sourceTree = "<group>"; };
+		C9D09B031A26157100C88831 /* UITextField+Geometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+Geometry.h"; sourceTree = "<group>"; };
+		C9D09B041A26157100C88831 /* UITextField+Geometry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+Geometry.m"; sourceTree = "<group>"; };
+		C9FD85051A403CDD00AC383F /* Todo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Todo.h; sourceTree = "<group>"; };
+		C9FD85061A403CDD00AC383F /* Todo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Todo.m; sourceTree = "<group>"; };
+		EF8F57141A8BCE7C00FE1B45 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		EF8F57171A8BCEC500FE1B45 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		EF8F574E1A8BF72700FE1B45 /* Project.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Project.h; sourceTree = "<group>"; };
+		EF8F574F1A8BF72700FE1B45 /* Project.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Project.m; sourceTree = "<group>"; };
+		EF8F57571A8C01EE00FE1B45 /* ProjectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProjectViewController.h; sourceTree = "<group>"; };
+		EF8F57581A8C01EE00FE1B45 /* ProjectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProjectViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF8F57151A8BCE7C00FE1B45 /* CoreData.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,10 +80,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C978F2921A2383A2006095FF /* interfaces */ = {
+			isa = PBXGroup;
+			children = (
+				C9D09B021A2614F900C88831 /* UITextfield */,
+				C998E3241A1931FB005E7DEA /* LaunchScreen.xib */,
+				C998E31F1A1931FB005E7DEA /* Main.storyboard */,
+			);
+			name = interfaces;
+			sourceTree = "<group>";
+		};
+		C9966A341A24FC6800527A73 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C998E31C1A1931FB005E7DEA /* TodoListViewController.h */,
+				C998E31D1A1931FB005E7DEA /* TodoListViewController.m */,
+				C9966A381A24FD2800527A73 /* TodoDetailViewController.h */,
+				C9966A391A24FD2800527A73 /* TodoDetailViewController.m */,
+				EF8F57571A8C01EE00FE1B45 /* ProjectViewController.h */,
+				EF8F57581A8C01EE00FE1B45 /* ProjectViewController.m */,
+			);
+			name = controllers;
+			sourceTree = "<group>";
+		};
 		C998E3091A1931FB005E7DEA = {
 			isa = PBXGroup;
 			children = (
+				EF8F57161A8BCEC500FE1B45 /* Model.xcdatamodeld */,
+				EF8F57141A8BCE7C00FE1B45 /* CoreData.framework */,
 				C998E3141A1931FB005E7DEA /* TodoList */,
+				C998E3151A1931FB005E7DEA /* Supporting Files */,
+				C998E3221A1931FB005E7DEA /* Images.xcassets */,
 				C998E32E1A1931FB005E7DEA /* TodoListTests */,
 				C998E3131A1931FB005E7DEA /* Products */,
 			);
@@ -81,14 +128,11 @@
 		C998E3141A1931FB005E7DEA /* TodoList */ = {
 			isa = PBXGroup;
 			children = (
+				C9FD85041A403CD000AC383F /* Model */,
 				C998E3191A1931FB005E7DEA /* AppDelegate.h */,
 				C998E31A1A1931FB005E7DEA /* AppDelegate.m */,
-				C998E31C1A1931FB005E7DEA /* ViewController.h */,
-				C998E31D1A1931FB005E7DEA /* ViewController.m */,
-				C998E31F1A1931FB005E7DEA /* Main.storyboard */,
-				C998E3221A1931FB005E7DEA /* Images.xcassets */,
-				C998E3241A1931FB005E7DEA /* LaunchScreen.xib */,
-				C998E3151A1931FB005E7DEA /* Supporting Files */,
+				C9966A341A24FC6800527A73 /* controllers */,
+				C978F2921A2383A2006095FF /* interfaces */,
 			);
 			path = TodoList;
 			sourceTree = "<group>";
@@ -100,6 +144,7 @@
 				C998E3171A1931FB005E7DEA /* main.m */,
 			);
 			name = "Supporting Files";
+			path = TodoList;
 			sourceTree = "<group>";
 		};
 		C998E32E1A1931FB005E7DEA /* TodoListTests */ = {
@@ -117,6 +162,26 @@
 				C998E3301A1931FB005E7DEA /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C9D09B021A2614F900C88831 /* UITextfield */ = {
+			isa = PBXGroup;
+			children = (
+				C9D09B031A26157100C88831 /* UITextField+Geometry.h */,
+				C9D09B041A26157100C88831 /* UITextField+Geometry.m */,
+			);
+			name = UITextfield;
+			sourceTree = "<group>";
+		};
+		C9FD85041A403CD000AC383F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C9FD85051A403CDD00AC383F /* Todo.h */,
+				C9FD85061A403CDD00AC383F /* Todo.m */,
+				EF8F574E1A8BF72700FE1B45 /* Project.h */,
+				EF8F574F1A8BF72700FE1B45 /* Project.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -164,7 +229,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0610;
-				ORGANIZATIONNAME = "Julien Sarazin";
+				ORGANIZATIONNAME = "";
 				TargetAttributes = {
 					C998E3111A1931FB005E7DEA = {
 						CreatedOnToolsVersion = 6.1;
@@ -219,8 +284,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C998E31E1A1931FB005E7DEA /* ViewController.m in Sources */,
+				C998E31E1A1931FB005E7DEA /* TodoListViewController.m in Sources */,
+				C9FD85071A403CDD00AC383F /* Todo.m in Sources */,
+				C9D09B051A26157100C88831 /* UITextField+Geometry.m in Sources */,
+				EF8F57501A8BF72700FE1B45 /* Project.m in Sources */,
+				EF8F57181A8BCEC500FE1B45 /* Model.xcdatamodeld in Sources */,
+				C9966A3A1A24FD2800527A73 /* TodoDetailViewController.m in Sources */,
 				C998E31B1A1931FB005E7DEA /* AppDelegate.m in Sources */,
+				EF8F57591A8C01EE00FE1B45 /* ProjectViewController.m in Sources */,
 				C998E3181A1931FB005E7DEA /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -412,6 +483,7 @@
 				C998E3371A1931FB005E7DEA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C998E3381A1931FB005E7DEA /* Build configuration list for PBXNativeTarget "TodoListTests" */ = {
 			isa = XCConfigurationList;
@@ -420,8 +492,22 @@
 				C998E33A1A1931FB005E7DEA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EF8F57161A8BCEC500FE1B45 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EF8F57171A8BCEC500FE1B45 /* Model.xcdatamodel */,
+			);
+			currentVersion = EF8F57171A8BCEC500FE1B45 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = C998E30A1A1931FB005E7DEA /* Project object */;
 }
