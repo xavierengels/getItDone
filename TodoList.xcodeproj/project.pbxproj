@@ -14,9 +14,11 @@
 		C998E3211A1931FB005E7DEA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C998E31F1A1931FB005E7DEA /* Main.storyboard */; };
 		C998E3231A1931FB005E7DEA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C998E3221A1931FB005E7DEA /* Images.xcassets */; };
 		C998E3261A1931FB005E7DEA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C998E3241A1931FB005E7DEA /* LaunchScreen.xib */; };
-		C998E3321A1931FB005E7DEA /* TodoListTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C998E3311A1931FB005E7DEA /* TodoListTests.m */; };
 		C9D09B051A26157100C88831 /* UITextField+Geometry.m in Sources */ = {isa = PBXBuildFile; fileRef = C9D09B041A26157100C88831 /* UITextField+Geometry.m */; };
 		C9FD85071A403CDD00AC383F /* Todo.m in Sources */ = {isa = PBXBuildFile; fileRef = C9FD85061A403CDD00AC383F /* Todo.m */; };
+		EF7271FC1A8D56E300A58F6E /* DBManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EF7271FB1A8D56E300A58F6E /* DBManager.m */; };
+		EF7271FF1A8D57B900A58F6E /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EF7271FD1A8D57B900A58F6E /* Model.xcdatamodeld */; };
+		EF7272041A8E18B200A58F6E /* TodoService.m in Sources */ = {isa = PBXBuildFile; fileRef = EF7272031A8E18B200A58F6E /* TodoService.m */; };
 		EF8F57151A8BCE7C00FE1B45 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF8F57141A8BCE7C00FE1B45 /* CoreData.framework */; };
 		EF8F57181A8BCEC500FE1B45 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EF8F57161A8BCEC500FE1B45 /* Model.xcdatamodeld */; };
 		EF8F57501A8BF72700FE1B45 /* Project.m in Sources */ = {isa = PBXBuildFile; fileRef = EF8F574F1A8BF72700FE1B45 /* Project.m */; };
@@ -47,12 +49,15 @@
 		C998E3221A1931FB005E7DEA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = TodoList/Images.xcassets; sourceTree = "<group>"; };
 		C998E3251A1931FB005E7DEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		C998E32B1A1931FB005E7DEA /* TodoListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TodoListTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C998E3301A1931FB005E7DEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C998E3311A1931FB005E7DEA /* TodoListTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TodoListTests.m; sourceTree = "<group>"; };
 		C9D09B031A26157100C88831 /* UITextField+Geometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+Geometry.h"; sourceTree = "<group>"; };
 		C9D09B041A26157100C88831 /* UITextField+Geometry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+Geometry.m"; sourceTree = "<group>"; };
 		C9FD85051A403CDD00AC383F /* Todo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Todo.h; sourceTree = "<group>"; };
 		C9FD85061A403CDD00AC383F /* Todo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Todo.m; sourceTree = "<group>"; };
+		EF7271FA1A8D56E300A58F6E /* DBManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBManager.h; sourceTree = "<group>"; };
+		EF7271FB1A8D56E300A58F6E /* DBManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBManager.m; sourceTree = "<group>"; };
+		EF7271FE1A8D57B900A58F6E /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		EF7272021A8E18B200A58F6E /* TodoService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TodoService.h; sourceTree = "<group>"; };
+		EF7272031A8E18B200A58F6E /* TodoService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TodoService.m; sourceTree = "<group>"; };
 		EF8F57141A8BCE7C00FE1B45 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		EF8F57171A8BCEC500FE1B45 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
 		EF8F574E1A8BF72700FE1B45 /* Project.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Project.h; sourceTree = "<group>"; };
@@ -111,7 +116,6 @@
 				C998E3141A1931FB005E7DEA /* TodoList */,
 				C998E3151A1931FB005E7DEA /* Supporting Files */,
 				C998E3221A1931FB005E7DEA /* Images.xcassets */,
-				C998E32E1A1931FB005E7DEA /* TodoListTests */,
 				C998E3131A1931FB005E7DEA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -128,6 +132,7 @@
 		C998E3141A1931FB005E7DEA /* TodoList */ = {
 			isa = PBXGroup;
 			children = (
+				EF7272001A8E186E00A58F6E /* services */,
 				C9FD85041A403CD000AC383F /* Model */,
 				C998E3191A1931FB005E7DEA /* AppDelegate.h */,
 				C998E31A1A1931FB005E7DEA /* AppDelegate.m */,
@@ -147,23 +152,6 @@
 			path = TodoList;
 			sourceTree = "<group>";
 		};
-		C998E32E1A1931FB005E7DEA /* TodoListTests */ = {
-			isa = PBXGroup;
-			children = (
-				C998E3311A1931FB005E7DEA /* TodoListTests.m */,
-				C998E32F1A1931FB005E7DEA /* Supporting Files */,
-			);
-			path = TodoListTests;
-			sourceTree = "<group>";
-		};
-		C998E32F1A1931FB005E7DEA /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				C998E3301A1931FB005E7DEA /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 		C9D09B021A2614F900C88831 /* UITextfield */ = {
 			isa = PBXGroup;
 			children = (
@@ -180,8 +168,28 @@
 				C9FD85061A403CDD00AC383F /* Todo.m */,
 				EF8F574E1A8BF72700FE1B45 /* Project.h */,
 				EF8F574F1A8BF72700FE1B45 /* Project.m */,
+				EF7271FA1A8D56E300A58F6E /* DBManager.h */,
+				EF7271FB1A8D56E300A58F6E /* DBManager.m */,
+				EF7271FD1A8D57B900A58F6E /* Model.xcdatamodeld */,
 			);
 			name = Model;
+			sourceTree = "<group>";
+		};
+		EF7272001A8E186E00A58F6E /* services */ = {
+			isa = PBXGroup;
+			children = (
+				EF7272011A8E188700A58F6E /* _core */,
+			);
+			name = services;
+			sourceTree = "<group>";
+		};
+		EF7272011A8E188700A58F6E /* _core */ = {
+			isa = PBXGroup;
+			children = (
+				EF7272021A8E18B200A58F6E /* TodoService.h */,
+				EF7272031A8E18B200A58F6E /* TodoService.m */,
+			);
+			name = _core;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -293,6 +301,9 @@
 				C998E31B1A1931FB005E7DEA /* AppDelegate.m in Sources */,
 				EF8F57591A8C01EE00FE1B45 /* ProjectViewController.m in Sources */,
 				C998E3181A1931FB005E7DEA /* main.m in Sources */,
+				EF7271FF1A8D57B900A58F6E /* Model.xcdatamodeld in Sources */,
+				EF7271FC1A8D56E300A58F6E /* DBManager.m in Sources */,
+				EF7272041A8E18B200A58F6E /* TodoService.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,7 +311,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C998E3321A1931FB005E7DEA /* TodoListTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -497,6 +507,16 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
+		EF7271FD1A8D57B900A58F6E /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EF7271FE1A8D57B900A58F6E /* Model.xcdatamodel */,
+			);
+			currentVersion = EF7271FE1A8D57B900A58F6E /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
 		EF8F57161A8BCEC500FE1B45 /* Model.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
